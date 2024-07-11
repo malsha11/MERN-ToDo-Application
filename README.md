@@ -26,17 +26,17 @@ This is a simple To-Do List application built with React, Node.js, and MongoDB. 
     cd todo-list-app
     ```
 
-2. **Install dependencies for the server:**
+2. **Install dependencies for the backend:**
 
     ```bash
-    cd server
+    cd backend
     npm install
     ```
 
-3. **Install dependencies for the client:**
+3. **Install dependencies for the frontend:**
 
     ```bash
-    cd ../client
+    cd ../frontend
     npm install
     ```
 
@@ -57,19 +57,19 @@ This is a simple To-Do List application built with React, Node.js, and MongoDB. 
 
 ### Running the Application
 
-1. **Start the server:**
+1. **Start the backend:**
 
     ```bash
-    cd server
+    cd backend
     node server.js
     ```
 
     The server should now be running on `http://localhost:3001`.
 
-2. **Start the client:**
+2. **Start the frontend:**
 
     ```bash
-    cd ../client
+    cd ../frontend
     npm start
     ```
 
@@ -84,8 +84,8 @@ This is a simple To-Do List application built with React, Node.js, and MongoDB. 
 
 ## Folder Structure
 
-- `client` - Contains the React front-end code.
-- `server` - Contains the Node.js back-end code.
+- `frontend` - Contains the React front-end code.
+- `backend` - Contains the Node.js back-end code.
 - `models` - Contains the Mongoose models for MongoDB.
 
 ## UI
